@@ -45,10 +45,13 @@ Presentación, permiso para grabar, aclaración: "No hay respuestas correctas; n
 - ¿Cuánto te llevó esa vez? ¿Cuándo lo hiciste?
 - Contame la última vez que algo de una reunión "se cayó": ¿qué fue, cómo te enteraste?
 
-**1.3 ¿Esa reunión fue típica? ¿En qué se parecen o se diferencian las otras reuniones de ese tipo?**
+**1.3 Contame de otra reunión de este tipo que hayas tenido este mes. ¿Qué cambió respecto a la que me contaste recién?**
 - Del último mes, ¿cuántas reuniones fueron así, más o menos?
 - ¿Qué tipo de trabajo es el que más se hace así: dibujar o mapear, escribir, repartir tareas?
 - *(Si en el survey dijo una frecuencia, contrastar sin citarla: "¿Cómo fue la semana pasada?")*
+
+**1.4 En una semana típica, ¿cuánto tiempo dirías que te lleva en total juntar y ordenar lo que sale de este tipo de reuniones?**
+- *(Suma de instancias, no una sola vez — es el dato que prueba o descarta el "≥1 h/semana" de la creencia de O1.)*
 
 ## O2 — Funciones de Teams: probadas o no (~15 min)
 
@@ -71,9 +74,11 @@ Presentación, permiso para grabar, aclaración: "No hay respuestas correctas; n
 - ¿La volviste a usar? ¿Qué pasó la vez siguiente?
 - *(Si nunca la probó: "¿Qué sabías de ella? ¿En algún momento pensaste en usarla?" No preguntar "¿por qué no?", que empuja a justificarse.)*
 
-**2.4 ¿Quién paga [la herramienta externa]? ¿IT sabe que la usan?**
-- ¿Pasó algo con eso alguna vez, un pedido, una auditoría, una restricción?
+**2.4 ¿Tenés idea de cómo se paga [la herramienta externa] hoy?**
 - *(Pregunta sensible: solo si hay confianza. Si la persona se incomoda, no insistir.)*
+
+**2.5 ¿Alguna vez IT preguntó o dijo algo sobre esa herramienta?**
+- ¿Pasó algo con eso alguna vez, un pedido, una auditoría, una restricción?
 
 ## Cierre (5 min)
 
@@ -103,3 +108,16 @@ Agradecimiento y próximos pasos (incentivo si corresponde).
 3. ¿Trabajás en IT, en la administración de M365, o en Microsoft o un partner? → descalificar si sí.
 
 **Objetivo:** 7–8 entrevistas, cortando antes si las respuestas se repiten (saturación). Para el 13 nov 2026, según la agenda.
+
+## Pretest notes
+
+**2026-09-22.** Pretest corrido contra la persona primaria (Valeria Quiroga, `product/personas/valeria-quiroga.md`).
+
+Cambios aplicados:
+- **1.3** cambiada de "¿esa reunión fue típica?" (generaba respuesta de categoría, sin episodio) a pedir otra instancia concreta del mes.
+- **1.4** agregada: pregunta directa por el tiempo semanal total de consolidación — la guía original solo capturaba el dato de una instancia (1.2) y nunca sumaba, dejando sin medir la creencia "≥1 h/semana" de O1.
+- **2.4** separada en dos preguntas (quién paga / si IT dijo algo): estaba double-barreled y, al ser la única pregunta sensible de la guía, perder la mitad de la respuesta ahí pesaba más que en el resto.
+
+Dejado como está a propósito:
+- La densidad de probes en 1.1 (5 sub-preguntas) — es una lista de probes para usar selectivamente, no un guion a leer entero; no se vio como problema en el dry-run.
+- La duración estimada (45 min) — con una pregunta más (1.4), sigue siendo ~1 pregunta principal + probes por cada 5 minutos; no se recortó nada más para compensar, revisar si en las primeras entrevistas reales se nota overrun.
