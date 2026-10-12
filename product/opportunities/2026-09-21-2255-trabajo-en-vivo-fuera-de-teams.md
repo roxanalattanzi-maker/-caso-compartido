@@ -56,5 +56,5 @@ Registro único: product/overview.md.
 | — | Punto de decisión: ¿el problema se sostiene? | Sin esta decisión no hay margen de construcción antes de CollabCon | 20 nov 2026 |
 
 ## Ideas candidatas (no evaluadas)
-- "Herramientas colaborativas integradas en la reunión" — la forma en que llegó el pedido.
+- "Herramientas colaborativas integradas en la reunión" — la forma en que llegó el pedido. → explorada en `product/solutions/2026-10-12-1821-trabajo-en-vivo-fuera-de-teams.md` (A1 `pizarra-persistente`): **chosen** (para testing, junto con A2 `abrir-como-app`). Alternativas surgidas en la exploración: A3 `cierre-asistido` y A4 `ritual-decisiones` **parked** (oportunidad adyacente de cierre de decisiones); A5 `tablero-tercero-en-plan` **parked** (depende de #5).
 - Oportunidades adyacentes (no enmarcadas aquí): reuniones sin cierre de decisiones y responsables; participantes que no pueden seguir el trabajo en vivo.
