@@ -2,7 +2,7 @@
 opportunity: trabajo-en-vivo-fuera-de-teams
 status: testing-several
 chosen: abrir-como-app, pizarra-persistente
-tests:
+tests: product/tests/2026-10-12-1830-trabajo-en-vivo-fuera-de-teams.md
 ---
 
 # Soluciones para: El trabajo conjunto de las reuniones se hace fuera de Teams
@@ -31,7 +31,7 @@ Un acuerdo con un proveedor (Miro, por ejemplo) para incluir su tablero en el pl
 | Alternativa | Desirable | Feasible | Viable | Creencia más riesgosa |
 |---|---|---|---|---|
 | A1 | mixed — pain evidenced, relief not tested. 67% de quienes probaron Whiteboard la dejó (survey, n=136); votar es la actividad #1 afuera (39%); 5 de 10 entrevistados lo mencionan (real). Solo 36% usa pizarras y la co-creación es quincenal o trimestral | to check with tech — Whiteboard se traba con 8 o más editores (research, secondary); 5 meses hasta CollabCon | mixed — Zoom ancla su tier en pizarras ilimitadas (secondary); sin dato propio que una pizarra retenga cuentas; #1 y #5 abiertas | Conductores que hoy co-crean en Miro, Mural o FigJam y tienen historial ahí usarían un tablero nativo para su próxima sesión de co-creación aunque implique dejar ese historial |
-| A2 | mixed — el más cercano a strong. 40% no sabía que existen las apps; 8% las abre así (survey, n=187); 72% de quienes las probaron las sigue usando (Q10, n=67, survey, sustituto cercano); "uno maneja, el resto dicta" en 7 de 10 (real). La sugerencia en sí no fue probada | to check with tech — las apps de terceros en reuniones ya existen (research, secondary) | mixed — sube el uso de lo ya pagado (Marcelo, synthetic); no ancla Max ni elimina gasto en Miro | Abierto como app, quienes hoy miran la pantalla de otro pueden editar u opinar sin cuenta ni licencia adicional (4 de 10 entrevistas con bloqueo de licencia, instancia o identidad, real) |
+| A2 | mixed — pain evidenced, relief not tested; el más cercano a strong. 40% no sabía que existen las apps; 8% las abre así (survey, n=187); 72% de quienes las probaron las sigue usando (Q10, n=67, survey, sustituto cercano); "uno maneja, el resto dicta" en 7 de 10 (real). La sugerencia en sí no fue probada | to check with tech — las apps de terceros en reuniones ya existen (research, secondary) | mixed — sube el uso de lo ya pagado (Marcelo, synthetic); no ancla Max ni elimina gasto en Miro | Abierto como app, quienes hoy miran la pantalla de otro pueden editar u opinar sin cuenta ni licencia adicional (4 de 10 entrevistas con bloqueo de licencia, instancia o identidad, real) |
 | A5 | mixed — pain evidenced, relief not tested. Problemas de licencia e instancia reales (4 de 10, real); "que nos paguen Miro" viene de personas synthetic | to check with tech — y un acuerdo comercial que ningún artefacto cubre; 5 meses es poco para negociar | unknown — depende de #5; señales débiles en contra: gasto por fuera 3,7% (secondary), Miro contratado por la empresa en 2 casos reales | #5 [viability]: en ≥1 de cada 3 cuentas medianas esas herramientas se pagan fuera del contrato y IT quiere eliminarlas |
 
 Ninguna celda es strong: nadie reaccionó todavía a estas soluciones concretas.
@@ -40,8 +40,9 @@ Ninguna celda es strong: nadie reaccionó todavía a estas soluciones concretas.
 Elegidas para testear en paralelo, por el usuario el 2026-10-12: **A2 y A1**. Coincide con la recomendación, así que no hay entrada en `product/corrections.md`. Razones de la recomendación: atacan poblaciones distintas (64% trabaja en herramientas existentes, 36% crea tableros nuevos); A2 es la prueba más barata y con evidencia más cercana; la creencia clave de A1 (migrar desde Miro) se puede refutar con un prototipo mostrado antes de invertir en rendimiento. A5 queda en pausa hasta resolver #5. Cambiarían la recomendación: Miro-users que dicen que no migrarían (cae A1), una app que no resuelve licencia o instancia (cae A2), un cruce de datos propios que asocie shadow IT con bajas (sube A5).
 
 ## A testear
-- **A2** — "Abierto como app, quienes hoy miran la pantalla de otro pueden editar u opinar sin cuenta ni licencia adicional": si es falsa, la sugerencia no relieva el acceso, que es lo que dejó a gente sin voz en 4 de 10 entrevistas. Se diseña en /design-solution-tests.
-- **A1** — "Conductores que hoy co-crean en Miro, Mural o FigJam con historial ahí usarían un tablero nativo para su próxima sesión de co-creación": si es falsa, ni votar ni rendir con 12 o más editores alcanzan, porque Miro se queda por continuidad. Se diseña en /design-solution-tests. El rendimiento con 12 o más editores va a tech, no a esta prueba.
+Diseñado en `product/tests/2026-10-12-1830-trabajo-en-vivo-fuera-de-teams.md`.
+- **A2** — "Abierto como app, quienes hoy miran la pantalla de otro pueden editar u opinar sin cuenta ni licencia adicional" (T1, technical-test): si es falsa, la sugerencia no relieva el acceso, que es lo que dejó a gente sin voz en 4 de 10 entrevistas. Después, T2 (prototype-shown) sobre si aceptan el aviso.
+- **A1** — "Conductores que hoy co-crean en Miro, Mural o FigJam con historial ahí usarían un tablero nativo para su próxima sesión de co-creación" (T3, prototype-shown): si es falsa, ni votar ni rendir con 12 o más editores alcanzan, porque Miro se queda por continuidad. El rendimiento con 12 o más editores va a tech, no a esta prueba.
 
 ## Propuesta de valor: A2 · Abrir como app (`abrir-como-app`)
 - **Pain relieved:** quien conduce pega el enlace y los demás miran o dictan: "súbele la prioridad a esa", un ticket equivocado cerrado (Andrés), filtros distintos y 10 a 15 min discutiendo números que no eran los mismos (Diego), una objeción que llegó una semana tarde (Valeria Castro). 52% de las reuniones tiene a alguien mirando la pantalla de otro (survey Q7, n=178).
@@ -58,9 +59,9 @@ Elegidas para testear en paralelo, por el usuario el 2026-10-12: **A2 y A1**. Co
 ## Creencias
 - [opportunity: trabajo-en-vivo-fuera-de-teams] [value] #6 — referenciada, ya registrada (`weakened`).
 - [product] [value] #2 — referenciada, ya registrada (`weakened`).
-- [feature: abrir-como-app] [value] — los conductores que hoy pegan el enlace de una herramienta externa en el chat la abren como app en la reunión cuando se les sugiere, en lugar de compartir pantalla para que los demás dicten. *(propuesta)*
-- [feature: abrir-como-app] [feasibility] — abierto como app, quienes hoy miran la pantalla de otro editan u opinan sin cuenta ni licencia adicional, incluidos invitados, otra instancia y cuentas personales. *(propuesta)*
-- [feature: pizarra-persistente] [value] — los conductores que hoy co-crean en Miro, Mural o FigJam con historial ahí usarían un tablero nativo con votar, agrupar, plantillas y enlace estable para su próxima sesión de co-creación. *(propuesta)*
+- [feature: abrir-como-app] [value] — los conductores que hoy pegan el enlace de una herramienta externa en el chat la abren como app en la reunión cuando se les sugiere, en lugar de compartir pantalla para que los demás dicten. *(registrada en overview.md como #7)*
+- [feature: abrir-como-app] [feasibility] — abierto como app, quienes hoy miran la pantalla de otro editan u opinan sin cuenta ni licencia adicional, incluidos invitados, otra instancia y cuentas personales. *(registrada en overview.md como #8)*
+- [feature: pizarra-persistente] [value] — los conductores que hoy co-crean en Miro, Mural o FigJam con historial ahí usarían un tablero nativo con votar, agrupar, plantillas y enlace estable para su próxima sesión de co-creación. *(registrada en overview.md como #9)*
 
 ## Descartadas o en pausa
 - **A3. Cierre asistido de decisiones** (`cierre-asistido`) — parked: pertenece a la oportunidad adyacente "reuniones sin cierre de decisiones y responsables", fuera de este enmarcado por decisión del usuario el 2026-10-12. Lo traería de vuelta un `/frame-opportunity` del cierre: es donde la evidencia pesa más (10 de 10 entrevistas con una decisión mal ejecutada; Q11 23%; el resumen de IA no distingue lo decidido de lo hablado, 12 de 26 con salvedad).
