@@ -4,20 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "44d281491e9a4ff0",
+        "id": "11fed70163cee936",
         "type": "tabs",
         "children": [
           {
-            "id": "82ce467360bec89f",
+            "id": "3f4afbf85cf95d6f",
             "type": "leaf",
             "state": {
-              "type": "bases",
-              "state": {
-                "file": "Sin título.base",
-                "viewName": "Tabla"
-              },
-              "icon": "lucide-table",
-              "title": "Sin título"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -181,13 +178,13 @@
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
+      "bases:Crear nueva base": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false
+      "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "82ce467360bec89f",
+  "active": "3f4afbf85cf95d6f",
   "lastOpenFiles": [
     "Sin título.base",
     "Bienvenido.md"

@@ -4,6 +4,7 @@ segment: Team Leads y mandos medios que conducen reuniones de más de 5 personas
 personas: valeria-quiroga, norma-benitez, marcelo-ferreyra, tomas-lindqvist
 ---
 
+
 # Oportunidad: El trabajo conjunto de las reuniones se hace fuera de Teams
 
 En cuentas medianas, cuando una reunión de más de 5 personas tiene que producir algo en conjunto (planificar, priorizar, redactar), quien conduce saca ese trabajo a Miro, Notion, Google Docs o Jira, y lo producido queda fragmentado fuera de la reunión y del perímetro M365. Ahora, porque "el equipo ya usa otras herramientas" y "pagamos por funciones que no usamos" están entre los motivos de baja, y CollabCon llega en 5 meses.
