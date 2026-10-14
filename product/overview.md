@@ -35,3 +35,9 @@ Organizaciones que usan Microsoft 365. La herramienta la contrata y despliega el
 7. [feature: abrir-como-app] [value] Los conductores que hoy pegan el enlace de una herramienta externa en el chat de la reunión la abren como app dentro de la reunión cuando se les sugiere, en lugar de compartir pantalla para que los demás dicten.
 8. [feature: abrir-como-app] [feasibility] Abierto como app en la reunión, quienes hoy miran la pantalla de otro editan u opinan sin cuenta ni licencia adicional, incluidos invitados, usuarios de otra instancia y cuentas personales.
 9. [feature: pizarra-persistente] [value] Los conductores que hoy co-crean en Miro, Mural o FigJam con historial ahí usarían un tablero nativo con votar, agrupar, plantillas y enlace estable para su próxima sesión de co-creación.
+10. [feature: seguir-trabajo-en-vivo] [value] quien mira sin poder tocar no opina durante la reunión y su objeción llega tarde o nunca.
+11. [feature: seguir-trabajo-en-vivo] [usability] los participantes de baja alfabetización técnica (Norma) señalan o comentan sin ayuda ni capacitación cuando el contenido se abre en la reunión.
+12. [feature: seguir-trabajo-en-vivo] [feasibility] el contenido de herramientas de terceros puede mostrarse a todos en el mismo estado (filtros y selección) y admitir marcas de participantes sin permiso de edición. — owner: Tech
+13. [feature: seguir-trabajo-en-vivo] [value] quien se pierde parte de una reunión usa la lista de decisiones con responsable y fecha en lugar de preguntarle a un compañero.
+14. [feature: seguir-trabajo-en-vivo] [value] quienes conducen quieren ver quién está mirando sin poder participar.
+15. [feature: seguir-trabajo-en-vivo] [viability] mejorar la participación de quien hoy mira sube la retención en la renovación de cuentas medianas.
